@@ -1,0 +1,59 @@
+/*Therapy services*/
+@keyframes open_spoiler{
+	0% {max-height: 0;}
+	100% {max-height: 100em;}
+}
+
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+}
+a {
+	text-decoration-line: none;
+}
+summary {
+	cursor: pointer;
+	outline: none;
+}
+
+
+details.level-1>summary{
+	color: white;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	background-image: linear-gradient(180deg, #163692 95%,#03287E 100%);
+}
+
+details.level-2>summary {
+	margin-top: 5px;
+	background-color: #A5B3FC;
+	min-height: 30px;
+	align-items: center;
+	display: flex;
+}
+
+details[open] div.spoiler{
+	outline: none;
+	animation: open_spoiler 1.5s;
+	cursor: pointer;
+	max-width: 100%;
+	overflow: hidden;
+}
+details[open].level-1{
+	box-shadow: 0 5px 10px -3px #000;
+}
+div.hide-content>:first-child {
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+}
+tr, td{
+	border: 2px solid #B1AAAA;
+	font-size: 15px;
+	padding:5px;
+	vertical-align: middle;
+	border-collapse: collapse;
+}

@@ -1,0 +1,15 @@
+/*License*/
+.img-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+
+
+img {
+	min-width: 300px;
+ 	width: 50%;
+ 	height: 100%;
+}

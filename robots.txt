@@ -1,0 +1,5 @@
+﻿User-agent: *
+Disallow: /assets/
+Disallow: /google7dbbbd27ec392e24.html
+Allow: /assets/pages/
+Sitemap: http://www/dentist.h1n.ru/sitemap/sitemap.xml
